@@ -11,4 +11,11 @@
     <string name="media_final">Média Final =&#160;</string>
     <string name="veredito_aprovado">Aprovado!</string>
     <string name="veredito_reprovado">Reprovado!</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="wrond_password_title">Wrong password!</string>
+    <string name="wrong_password_message">The password that you inserted is wrong.</string>
+    <string name="welcome">"Youkoso %s-san"</string>
 </resources>

@@ -23,6 +23,11 @@ public class MainActivity extends AppCompatActivity{
         });
 
         button2 = findViewById(R.id.botao_2);
+        button2.setOnClickListener((v) -> {
+            Intent i = new Intent(this, ao.rafaelmarcos.avaliaointents.login.FormActivity.class);
+            startActivity(i);
+        });
+
         button3 = findViewById(R.id.botao_3);
     }
 }
