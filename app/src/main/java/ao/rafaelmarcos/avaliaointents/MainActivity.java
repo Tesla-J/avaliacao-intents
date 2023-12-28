@@ -17,6 +17,11 @@ public class MainActivity extends AppCompatActivity{
         setContentView(R.layout.activity_main);
 
         button1 = findViewById(R.id.botao_1);
+        button1.setOnClickListener((v) -> {
+            Intent i = new Intent(this, ao.rafaelmarcos.avaliaointents.media_aritmetica.NotasFormActivity.class);
+            startActivity(i);
+        });
+
         button2 = findViewById(R.id.botao_2);
         button3 = findViewById(R.id.botao_3);
     }

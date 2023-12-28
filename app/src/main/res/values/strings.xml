@@ -3,4 +3,12 @@
     <string name="exemplo_1">Exemplo 1</string>
     <string name="exemplo_2">Exemplo 2</string>
     <string name="exemplo_3">Exemplo 3</string>
+
+    <string name="np1_hint">NP1</string>
+    <string name="np2_hint">NP2</string>
+    <string name="calcular_button">Calcular média</string>
+
+    <string name="media_final">Média Final =&#160;</string>
+    <string name="veredito_aprovado">Aprovado!</string>
+    <string name="veredito_reprovado">Reprovado!</string>
 </resources>
