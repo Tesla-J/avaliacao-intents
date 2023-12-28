@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import ao.rafaelmarcos.avaliaointents.R;
 
@@ -18,5 +19,7 @@ public class WelcomeActivity extends AppCompatActivity {
         welcome = findViewById(R.id.welcome);
         String name = getIntent().getExtras().getString(FormActivity.USERNAME);
         welcome.setText(String.format(getResources().getString(R.string.welcome),name));
+
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
     }
 }
