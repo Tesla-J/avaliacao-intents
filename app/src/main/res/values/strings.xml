@@ -18,4 +18,8 @@
     <string name="wrond_password_title">Wrong password!</string>
     <string name="wrong_password_message">The password that you inserted is wrong.</string>
     <string name="welcome">"Youkoso %s-san"</string>
+
+    <string name="type_message">Type message</string>
+    <string name="send_message">Send message</string>
+    <string name="get_message">Get message</string>
 </resources>
